@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Feb 27 20:09:51 2017
+
+drc -z alu4bit_board_sch.ncd alu4bit_board_sch.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -verilog alu_sch_drc.vf -w {F:/EE 1202/ToyProcessor/alu_sch.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym alu_sch {F:/EE 1202/ToyProcessor/alu_sch.sch} {F:/EE 1202/ToyProcessor/alu_sch.sym} 

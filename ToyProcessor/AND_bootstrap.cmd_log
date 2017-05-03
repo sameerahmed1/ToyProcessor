@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym AND_bootstrap C:/Users/whb160130/Documents/ToyProcessor(1)/AND_bootstrap.sch C:/Users/whb160130/Documents/ToyProcessor(1)/AND_bootstrap.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym AND_bootstrap C:/Users/whb160130/Desktop/ToyProcessor(2)/AND_bootstrap.sch C:/Users/whb160130/Desktop/ToyProcessor(2)/AND_bootstrap.sym 

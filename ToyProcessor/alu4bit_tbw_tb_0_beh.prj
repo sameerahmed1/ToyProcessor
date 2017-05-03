@@ -1,0 +1,6 @@
+verilog work "logic_ext.vf"
+verilog work "fa_sch.vf"
+verilog work "arith_ext.vf"
+verilog work "alu4bit_sch.vf"
+verilog work "alu4bit_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

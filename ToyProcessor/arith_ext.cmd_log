@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym arith_ext {F:/EE 1202/ToyProcessor/arith_ext.sch} {F:/EE 1202/ToyProcessor/arith_ext.sym} 

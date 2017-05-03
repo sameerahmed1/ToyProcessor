@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\EE 1202\ToyProcessor\alu4bit_board_sch.ncd
+OUTFILE=F:\EE 1202\ToyProcessor\alu4bit_board_sch.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=F:\EE 1202\ToyProcessor
+LICENSE=ISE
+USER_INFO=179751441_1777485790_210569052_147

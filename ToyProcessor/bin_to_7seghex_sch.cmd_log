@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -verilog bin_to_7seghex_sch_drc.vf -w {F:/EE 1202/ToyProcessor/bin_to_7seghex_sch.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym bin_to_7seghex_sch {F:/EE 1202/ToyProcessor/bin_to_7seghex_sch.sch} {F:/EE 1202/ToyProcessor/bin_to_7seghex_sch.sym} 

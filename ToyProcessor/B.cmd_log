@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym B {F:/EE 1202/ToyProcessor/B.sch} {F:/EE 1202/ToyProcessor/B.sym} 
+sch2sym -intstyle ise -family spartan3e -refsym B {F:/EE 1202/ToyProcessor/B.sch} {F:/EE 1202/ToyProcessor/B.sym} 
+sch2hdl -intstyle ise -family spartan3e -verilog B_drc.vf -w {F:/EE 1202/ToyProcessor/B.sch} 

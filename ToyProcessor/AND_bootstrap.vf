@@ -1,0 +1,100 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : AND_bootstrap.vf
+// /___/   /\     Timestamp : 04/13/2017 20:40:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/whb160130/Desktop/ToyProcessor(2)/AND_bootstrap.vf -w C:/Users/whb160130/Desktop/ToyProcessor(2)/AND_bootstrap.sch
+//Design Name: AND_bootstrap
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module AND8_MXILINX_AND_bootstrap(I0, 
+                                  I1, 
+                                  I2, 
+                                  I3, 
+                                  I4, 
+                                  I5, 
+                                  I6, 
+                                  I7, 
+                                  O);
+
+    input I0;
+    input I1;
+    input I2;
+    input I3;
+    input I4;
+    input I5;
+    input I6;
+    input I7;
+   output O;
+   
+   wire dummy;
+   wire S0;
+   wire S1;
+   wire O_DUMMY;
+   
+   assign O = O_DUMMY;
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_29 (.I1(I0), 
+                 .I2(I1), 
+                 .I3(I2), 
+                 .I4(I3), 
+                 .O(S0));
+   AND4  I_36_110 (.I0(I0), 
+                  .I1(I1), 
+                  .I2(I2), 
+                  .I3(I3), 
+                  .O(S0));
+   AND4  I_36_127 (.I0(I4), 
+                  .I1(I5), 
+                  .I2(I6), 
+                  .I3(I7), 
+                  .O(S1));
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_138 (.I1(I4), 
+                  .I2(I5), 
+                  .I3(I6), 
+                  .I4(I7), 
+                  .O(S1));
+   AND2  I_36_142 (.I0(S0), 
+                  .I1(S1), 
+                  .O(O_DUMMY));
+   (* RLOC = "X0Y1" *) 
+   FMAP  I_36_152 (.I1(S0), 
+                  .I2(S1), 
+                  .I3(dummy), 
+                  .I4(dummy), 
+                  .O(O_DUMMY));
+endmodule
+`timescale 1ns / 1ps
+
+module AND_bootstrap(COUNT_OUT, 
+                     ROM_done);
+
+    input [7:0] COUNT_OUT;
+   output ROM_done;
+   
+   
+   (* HU_SET = "XLXI_3_0" *) 
+   AND8_MXILINX_AND_bootstrap  XLXI_3 (.I0(COUNT_OUT[0]), 
+                                      .I1(COUNT_OUT[1]), 
+                                      .I2(COUNT_OUT[2]), 
+                                      .I3(COUNT_OUT[3]), 
+                                      .I4(COUNT_OUT[4]), 
+                                      .I5(COUNT_OUT[5]), 
+                                      .I6(COUNT_OUT[6]), 
+                                      .I7(COUNT_OUT[7]), 
+                                      .O(ROM_done));
+endmodule

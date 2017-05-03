@@ -1,0 +1,50 @@
+###Auto generated UCF file for BASYS2 Board
+
+
+NET F0 LOC=M5;  # Discrete LED 0 (active high)
+NET F1 LOC=M11;  # Discrete LED 1 (active high)
+NET F2 LOC=P7;  # Discrete LED 2 (active high)
+NET F3 LOC=P6;  # Discrete LED 3 (active high)
+
+
+
+NET Cout LOC=G1;  # Discrete LED 7 (active high)
+
+### BASYS2 7-Segment LED:
+### BASYS2    digit enables:
+NET EN_L LOC=K14;  # left digit enable (active low)
+NET EN_ML LOC=M13;  # middle left digit enable (active low)
+NET EN_MR LOC=J12;  # middle right digit enable (active low)
+NET EN_R LOC=F12;  # right digit enable (active low)
+
+### BASYS2    segment enables:
+NET SS<0> LOC=L14;  # LED display segment a (active low)
+NET SS<1> LOC=H12;  # LED display segment b (active low)
+NET SS<2> LOC=N14;  # LED display segment c (active low)
+NET SS<3> LOC=N11;  # LED display segment d (active low)
+NET SS<4> LOC=P12;  # LED display segment e (active low)
+NET SS<5> LOC=L13;  # LED display segment f (active low)
+NET SS<6> LOC=M12;  # LED display segment g (active low)
+
+
+
+
+
+
+
+NET S0 LOC=C11;  # Pushbutton 1 (active high)
+NET S1 LOC=M4;  # Pushbutton 2 (active high)
+NET M LOC=A7;  # Pushbutton 3 (active high)
+
+### BASYS2 Slide Switches:
+NET B<0> LOC=P11;  # Switch 0
+NET B<1> LOC=L3;  # Switch 1
+NET B<2> LOC=K3;  # Switch 2
+NET B<3> LOC=B4;  # Switch 3
+NET A<0> LOC=G3;  # Switch 4
+NET A<1> LOC=F3;  # Switch 5
+NET A<2> LOC=E2;  # Switch 6
+NET A<3> LOC=N3;  # Switch 7
+
+
+NET CLK LOC=B8;  # clock
